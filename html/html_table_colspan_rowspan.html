@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="view-port" content="width=device-width, initial-scale=1.0">
+    <style>
+      table, th, td{
+        border: 1px solid #ccc;
+        border-collapse: collapse; //https://developer.mozilla.org/ko/docs/Web/CSS/border-collapse
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table colspan, rowspan</h1>
+    <table>
+      <tr>
+        <th colspan="2" style="background-color:blue;">HEAD1</th>
+        <th>HEAD2</th>
+      </tr>
+      <tr>
+        <td rowspan="2" style="background-color:red;">DATA1</td>
+        <td>DATA2</td>
+        <td>DATA3</td>
+      </tr>
+      <tr>
+        <td>DATA2</td>
+        <td>DATA3</td>
+      </tr>      
+    </table>
+
+    <!-- https://www.w3schools.com/html/html_table_colspan_rowspan.asp -->
+  </body>
+</html>
