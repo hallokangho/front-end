@@ -3,24 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="view-port" content="width=device-width, initial-scale=1.0">
+    <style>
+      .box{
+        border : none solid #ccc;
+        background-color : red;
+        text-align : center;
+        padding : 10px;
+        color : #ffffff;
+      }
+
+      .high-light{
+        color : red;
+        font-size : 2em;
+        font-weight : 900;
+      }
+    </style>
   </head>
   <body>
-    <h1>Ordered list style</h1>
-    <ol type="A">
-      <li>List1</li>
-      <li>List2</li>
-      <li>List3</li>
-    </ol>
-    <ol type="i">
-      <li>List1</li>
-      <li>List2</li>
-      <li>List3</li>
-    </ol> 
-    <ol start="10">
-      <li>List1</li>
-      <li>List2</li>
-      <li>List3</li>
-    </ol>     
-    <!-- https://www.w3schools.com/html/html_lists_ordered.asp -->  
+    <h1>Block and Inline</h1>
+    
+    <div class="box">Hello world</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo atque ut nemo dignissimos quos magni, porro, <span class="high-light">exercitationem</span> neque iure ducimus ad perferendis, asperiores alias iusto dolore nobis dolores dolorem voluptatem.</p>
+
+    <!-- https://www.w3schools.com/html/html_blocks.asp -->
   </body>
 </html>
