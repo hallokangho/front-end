@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viwport" content="width=device-width, initial-scale=1.0">
+    <style>
+      header {
+        background-color: red;
+      }
+
+      nav {
+        float: left;
+        width: 30%;
+        background: blue;
+      }
+
+      nav ul {
+        list-style-type: none;
+      }
+
+      article {
+        float: left;
+        width: 70%;
+        background-color: #f1f1f1;
+      }
+
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      footer {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Layout</h1>
+    <header>HEADER</header>
+
+    <section>
+      <nav>
+        <ul>
+          <li>LIST1</li>
+          <li>LIST2</li>
+          <li>LIST3</li>
+        </ul>
+      </nav>
+
+      <article>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi libero odio illo neque possimus! Quas ipsa enim, sequi, doloribus impedit nostrum libero temporibus praesentium aspernatur animi veniam sapiente error?
+      </article>
+
+    </section>
+
+    <footer>Footer</footer>
+ 
+  </body>
+</html>
