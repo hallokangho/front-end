@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .left{
+        float:left;
+        background-color:red;
+        width:20%;
+      }
+
+      .center{
+        float:left;
+        background-color:green;
+        width:40%;
+      }
+
+      .right{
+        float:left;
+        background-color:blue;
+        width:40%;
+      }
+
+      @media(max-width:500px){
+        .left, .center, .right{
+          width:100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Responsive</h1>
+    <div class="left">
+      <p>LEFT</p>
+    </div>
+
+    <div class="center">
+      <p>CENTER</p>
+    </div>
+
+    <div class="right">
+      <p>RIGHT</p>
+    </div>
+
+    <img src="https://jngnposwzs-flywheel.netdna-ssl.com/wp-content/uploads/2021/07/Homepage-MiddleBox-768x512.jpg" style="width:100%;">
+  </body>
+</html>
