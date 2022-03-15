@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .dropdown{
+        border: 1px solid green;
+        background-color: green;
+        width: 100px;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .dropdown .btn{
+        padding: 10px;
+      }      
+
+      .dropdown-list-link{
+        background-color: #ffffff;
+        color: black;
+        padding: 10px;       
+        display: none;
+      }
+
+      .dropdown:hover{ 
+        background-color: black;
+      }
+      
+      .dropdown:hover .dropdown-list-link{ 
+        display: block;
+      }
+
+      .dropdown-list-link:hover{ 
+        color: red;
+        background-color: black;
+      }      
+    </style>
+  </head>
+  <body>
+    <div class="dropdown">
+      <div class="btn">BUTTON</div>
+      
+      <div class="dropdown-list">
+        <div class="dropdown-list-link">LINK1</div>
+        <div class="dropdown-list-link">LINK2</div>
+      </div>
+    </div>
+
+    <!-- https://www.w3schools.com/css/css_dropdowns.asp -->
+  </body>
+</html>
